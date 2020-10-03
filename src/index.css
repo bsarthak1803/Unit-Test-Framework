@@ -1,0 +1,67 @@
+.sidenav {
+  width: 203px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 500px; /* Stay at the top */
+  left: 10px;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.2s;
+}
+
+.sidenav1 {
+  width: 203px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 250px; /* Stay at the top */
+  left: 10px;
+  background-color: 'white';
+  overflow-x: scroll;
+  transition: 0.2s;
+  height: 300px;
+}
+
+.sidenav1 li {
+  margin-left: -20px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #447af0;
+  display: block;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+li:hover {
+  color: green;
+  background-color: 'white';
+  font-weight: bold;
+}
+
+.border {
+  border-top: 1px inset rgb(52, 51, 59);
+  border-bottom: 1px inset rgb(52, 51, 59);
+  padding: -5%;
+  margin-top: 2%;
+  border-width: 2px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+.unit1.input[type="date"] {
+  font-size: 10px;
+}
+.item.hover {
+  font-weight: bold;
+}
